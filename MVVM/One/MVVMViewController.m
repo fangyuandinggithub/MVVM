@@ -83,7 +83,7 @@ static NSString *const reuserId = @"reuserId";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    //vm设置了点击监听
     self.vm.contentKey = self.dataArray[indexPath.row];
     NSLog(@"contentKey=%@",self.vm.contentKey);
   
