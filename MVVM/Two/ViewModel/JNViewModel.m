@@ -30,11 +30,12 @@
     }
     return self;
 }
-
+//监听数据的变化
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
     NSString *selectName = change[NSKeyValueChangeNewKey];
-    
+    // synchronized 这个主要是考虑多线程的程序，这个指令可以将{ } 内的代码限制在一个线程执行，如果某个线程没有执行完，其他的线程如果需要执行就得等着
     @synchronized (self) {
+        //遍历查找相同的数据返回对应的索引
         NSInteger index = [self.datas indexOfObjectPassingTest:^BOOL(JNModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
             return [obj.name isEqualToString:selectName];
         }];
@@ -52,7 +53,7 @@
 
 - (void)refreshAction{
     //模拟请求
-    [[NSOperationQueue new] addOperationWithBlock:^{
+    [[NSOperationQueue new] addOperationWithBlock:^{//异步处理数据
         @synchronized (self) {
             [self.datas removeAllObjects];
             for(int i = 0 ;i < 30 ; i++){
@@ -63,7 +64,7 @@
             }
         }
         sleep(2.0);
-        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+        [[NSOperationQueue mainQueue] addOperationWithBlock:^{//回到主队列更新UI
             if(self.succ){
                 self.succ(self.datas);
             }

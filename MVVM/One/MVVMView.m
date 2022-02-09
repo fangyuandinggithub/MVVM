@@ -19,8 +19,9 @@
     NSMutableArray *dataArray;
 }
 - (void)headViewWithData:(id)data{
-    NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:4];
+    NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:4];//arrayWithCapacity 指定内容的长度
     dataArray = data;
+    NSLog(@"dataArray==%@",dataArray);
     for (int i = 0; i<dataArray.count; i++) {
         
         int row = i % 4;

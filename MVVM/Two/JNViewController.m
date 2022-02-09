@@ -16,9 +16,9 @@
 
 @property (nonatomic, strong)UIButton *refreshBtn;
 
-@property (nonatomic, strong)JNTableDataSource *dataSource;
+@property (nonatomic, strong)JNTableDataSource *dataSource;// 封装dataSource
 
-@property (nonatomic, strong)JNViewModel *viewModel;
+@property (nonatomic, strong)JNViewModel *viewModel;//数据来源
 
 @end
 

@@ -28,6 +28,7 @@
     }
     return self;
 }
+//datasource代理方法
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     JNTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.identifier];
     if(cell == nil){
