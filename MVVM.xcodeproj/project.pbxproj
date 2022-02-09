@@ -13,6 +13,16 @@
 		C6C6B67923A75CF0004D13FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B67823A75CF0004D13FC /* main.m */; };
 		C6C6B68323A75CF0004D13FC /* MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B68223A75CF0004D13FC /* MVVMTests.m */; };
 		C6C6B68E23A75CF0004D13FC /* MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B68D23A75CF0004D13FC /* MVVMUITests.m */; };
+		C6C6B69D23A75D31004D13FC /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B69C23A75D31004D13FC /* MVVMViewController.m */; };
+		C6C6B6A023A75FCA004D13FC /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B69F23A75FCA004D13FC /* BaseViewModel.m */; };
+		C6C6B6A323A76146004D13FC /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6A223A76146004D13FC /* MVVMView.m */; };
+		C6C6B6A623A762B7004D13FC /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6A523A762B7004D13FC /* MVVMViewModel.m */; };
+		C6C6B6AC23A77197004D13FC /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6AB23A77197004D13FC /* JNViewController.m */; };
+		C6C6B6B023A772AE004D13FC /* JNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6AF23A772AE004D13FC /* JNTableViewCell.m */; };
+		C6C6B6B423A772D1004D13FC /* JNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6B323A772D1004D13FC /* JNModel.m */; };
+		C6C6B6B823A77352004D13FC /* JNBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6B723A77352004D13FC /* JNBaseViewModel.m */; };
+		C6C6B6BB23A77461004D13FC /* JNViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6BA23A77461004D13FC /* JNViewModel.m */; };
+		C6C6B6BE23A77D9E004D13FC /* JNTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C6B6BD23A77D9E004D13FC /* JNTableDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,26 @@
 		C6C6B68923A75CF0004D13FC /* MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C6B68D23A75CF0004D13FC /* MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMUITests.m; sourceTree = "<group>"; };
 		C6C6B68F23A75CF0004D13FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C6B69B23A75D31004D13FC /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		C6C6B69C23A75D31004D13FC /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		C6C6B69E23A75FCA004D13FC /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		C6C6B69F23A75FCA004D13FC /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		C6C6B6A123A76146004D13FC /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		C6C6B6A223A76146004D13FC /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		C6C6B6A423A762B7004D13FC /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		C6C6B6A523A762B7004D13FC /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		C6C6B6AA23A77197004D13FC /* JNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
+		C6C6B6AB23A77197004D13FC /* JNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
+		C6C6B6AE23A772AE004D13FC /* JNTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNTableViewCell.h; sourceTree = "<group>"; };
+		C6C6B6AF23A772AE004D13FC /* JNTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNTableViewCell.m; sourceTree = "<group>"; };
+		C6C6B6B223A772D1004D13FC /* JNModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNModel.h; sourceTree = "<group>"; };
+		C6C6B6B323A772D1004D13FC /* JNModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNModel.m; sourceTree = "<group>"; };
+		C6C6B6B623A77352004D13FC /* JNBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseViewModel.h; sourceTree = "<group>"; };
+		C6C6B6B723A77352004D13FC /* JNBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseViewModel.m; sourceTree = "<group>"; };
+		C6C6B6B923A77461004D13FC /* JNViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewModel.h; sourceTree = "<group>"; };
+		C6C6B6BA23A77461004D13FC /* JNViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewModel.m; sourceTree = "<group>"; };
+		C6C6B6BC23A77D9E004D13FC /* JNTableDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNTableDataSource.h; sourceTree = "<group>"; };
+		C6C6B6BD23A77D9E004D13FC /* JNTableDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNTableDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +126,8 @@
 		C6C6B66E23A75CEC004D13FC /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				C6C6B6A923A77172004D13FC /* Two */,
+				C6C6B6A723A77157004D13FC /* One */,
 				C6C6B66F23A75CEC004D13FC /* AppDelegate.h */,
 				C6C6B67023A75CEC004D13FC /* AppDelegate.m */,
 				C6C6B67223A75CF0004D13FC /* Assets.xcassets */,
@@ -122,6 +154,64 @@
 				C6C6B68F23A75CF0004D13FC /* Info.plist */,
 			);
 			path = MVVMUITests;
+			sourceTree = "<group>";
+		};
+		C6C6B6A723A77157004D13FC /* One */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6B69B23A75D31004D13FC /* MVVMViewController.h */,
+				C6C6B69C23A75D31004D13FC /* MVVMViewController.m */,
+				C6C6B69E23A75FCA004D13FC /* BaseViewModel.h */,
+				C6C6B69F23A75FCA004D13FC /* BaseViewModel.m */,
+				C6C6B6A423A762B7004D13FC /* MVVMViewModel.h */,
+				C6C6B6A523A762B7004D13FC /* MVVMViewModel.m */,
+				C6C6B6A123A76146004D13FC /* MVVMView.h */,
+				C6C6B6A223A76146004D13FC /* MVVMView.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		C6C6B6A923A77172004D13FC /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6B6B523A77326004D13FC /* ViewModel */,
+				C6C6B6B123A772B8004D13FC /* Model */,
+				C6C6B6AD23A77298004D13FC /* View */,
+				C6C6B6AA23A77197004D13FC /* JNViewController.h */,
+				C6C6B6AB23A77197004D13FC /* JNViewController.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		C6C6B6AD23A77298004D13FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6B6AE23A772AE004D13FC /* JNTableViewCell.h */,
+				C6C6B6AF23A772AE004D13FC /* JNTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6C6B6B123A772B8004D13FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6B6B223A772D1004D13FC /* JNModel.h */,
+				C6C6B6B323A772D1004D13FC /* JNModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6C6B6B523A77326004D13FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6B6B623A77352004D13FC /* JNBaseViewModel.h */,
+				C6C6B6B723A77352004D13FC /* JNBaseViewModel.m */,
+				C6C6B6B923A77461004D13FC /* JNViewModel.h */,
+				C6C6B6BA23A77461004D13FC /* JNViewModel.m */,
+				C6C6B6BC23A77D9E004D13FC /* JNTableDataSource.h */,
+				C6C6B6BD23A77D9E004D13FC /* JNTableDataSource.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +344,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6C6B67923A75CF0004D13FC /* main.m in Sources */,
+				C6C6B6A323A76146004D13FC /* MVVMView.m in Sources */,
+				C6C6B6B423A772D1004D13FC /* JNModel.m in Sources */,
+				C6C6B6AC23A77197004D13FC /* JNViewController.m in Sources */,
+				C6C6B6A623A762B7004D13FC /* MVVMViewModel.m in Sources */,
+				C6C6B6BE23A77D9E004D13FC /* JNTableDataSource.m in Sources */,
+				C6C6B6A023A75FCA004D13FC /* BaseViewModel.m in Sources */,
+				C6C6B6BB23A77461004D13FC /* JNViewModel.m in Sources */,
 				C6C6B67123A75CEC004D13FC /* AppDelegate.m in Sources */,
+				C6C6B69D23A75D31004D13FC /* MVVMViewController.m in Sources */,
+				C6C6B6B023A772AE004D13FC /* JNTableViewCell.m in Sources */,
+				C6C6B6B823A77352004D13FC /* JNBaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,13 +520,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUB3CAVM32;
 				INFOPLIST_FILE = MVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = beijingliling.MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,13 +538,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUB3CAVM32;
 				INFOPLIST_FILE = MVVM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = beijingliling.MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
